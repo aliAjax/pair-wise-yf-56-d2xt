@@ -3,5 +3,21 @@ export const messages = {
   subtitle: '告警分流、处置审批与实时协同',
   approval: '处置审批',
   timeline: '事件时间线',
-  demo: '只读演示模式'
+  demo: '只读演示模式',
+  online: '在线',
+  offline: '离线',
+  offlineBanner: '离线模式：审批与处置操作将在本地排队，回网后按标识自动合并，合不上的冲突项单独列出。',
+  syncQueue: '断网同步队列',
+  syncQueueHint: '断网期间的操作按标识合并，合不上的单独列出',
+  syncNow: '立即同步',
+  clearResolved: '清除已完成',
+  merged: '已合并',
+  conflict: '冲突待处理',
+  pendingSync: '待同步',
+  ignore: '忽略',
+  affectedScope: '影响范围',
+  scopeHint: '变更后未执行动作立即失效、退回待确认',
+  addAffected: '新增受影响资产',
+  transitionHint: '处置阶段变更后未执行动作退回待确认',
+  approvalsHint: '隔离动作需 2 名不同角色在当前动作版本确认；影响范围或阶段变更后审批作废，需在新版本上重新确认。'
 };
